@@ -12,7 +12,7 @@ import {
   updateTime,
 } from "../redux/Slices/dataSlice";
 import { PDFDocument } from "pdf-lib";
-import PDf from "../assets/form.pdf";
+const PDf = "public/Form.pdf";
 
 const PdfGen = () => {
   const [data, setData] = useState();
